@@ -26,22 +26,6 @@ public class No37_SudokuSolver {
                     }
 
                     return false;
-
-                    List<Character> exclusiveNumList = pickExclusiveNumList(i, j, board);
-                    if (exclusiveNumList.size() == 0){
-                        return false;
-                    }
-
-                    for (char ch : exclusiveNumList){
-                        board[i][j] = ch;
-                        if (doSolveSudoku(board, startRow, startCol)){
-                            return true;
-                        } else {
-                            board[i][j] = '.';
-                        }
-                    }
-
-                    return false;
                 }
             }
         }

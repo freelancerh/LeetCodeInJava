@@ -1,8 +1,8 @@
 package range_1_20;
 
 class ListNode {
-      int val;
-      ListNode next;
+	  public int val;
+      public ListNode next;
       ListNode(int x) { val = x; }
   }
 
@@ -67,6 +67,7 @@ public class No2_AddTwoNumbers {
 				ListNode node = new ListNode(1);
 				pre.next = node;
 			}
+
 			return l1;
 		}
 		
