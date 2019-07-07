@@ -1,6 +1,6 @@
 package range_40_60;
 
-public class No44_JumpGameII {
+public class No45_JumpGameII {
 	public int jump(int[] nums) {
 		if(nums==null || nums.length < 2){
 			return 0;
@@ -27,6 +27,6 @@ public class No44_JumpGameII {
     }
 	
 	public static void main(String[] args){
-		new No44_JumpGameII().jump(new int[]{4,1,1,3,1,1,1});
+		new No45_JumpGameII().jump(new int[]{4,1,1,3,1,1,1});
 	}
 }
