@@ -1,5 +1,8 @@
 package range_20_40;
 
+/**
+ * 数组，二分查找
+ */
 public class No35_SearchInsert {
 	public int searchInsert(int[] nums, int target) {
         if(nums==null){

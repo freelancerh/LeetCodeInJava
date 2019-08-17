@@ -1,5 +1,8 @@
 package range_20_40;
 
+/**
+ * 链表，指针
+ */
 public class No24_SwapNodesInPairs {
 	public ListNode swapPairs(ListNode head) {
         if(head==null || head.next==null)

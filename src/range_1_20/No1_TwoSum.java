@@ -2,6 +2,9 @@ package range_1_20;
 
 import java.util.HashMap;
 
+/**
+ * 找规律，空间换时间，数组
+ */
 public class No1_TwoSum {
 	
 	public static int[] twoSum(int[] nums, int target) {

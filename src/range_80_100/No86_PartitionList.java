@@ -1,5 +1,8 @@
 package range_80_100;
 
+/**
+ * 链表
+ */
 public class No86_PartitionList {
     public ListNode partition(ListNode head, int x) {
         if (head == null){

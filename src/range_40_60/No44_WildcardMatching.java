@@ -3,6 +3,9 @@ package range_40_60;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * 字符串，动态规划
+ */
 public class No44_WildcardMatching {
 
     public boolean isMatch(String s, String p){

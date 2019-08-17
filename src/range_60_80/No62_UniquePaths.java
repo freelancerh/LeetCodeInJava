@@ -1,6 +1,8 @@
 package range_60_80;
-/*
- * 两种方法，一种递归，一种动态规划。注意递归的时候需要有个记录表，避免重复的递归，否则会出现Time Limit Exceeded*/
+/**
+ * 递归，动态规划
+ * 两种方法，一种递归，一种动态规划。注意递归的时候需要有个记录表，避免重复的递归，否则会出现Time Limit Exceeded
+ * */
 public class No62_UniquePaths {
     public int uniquePaths(int m, int n) {
     	if(m<1 || n<1)

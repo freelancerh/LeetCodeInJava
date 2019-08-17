@@ -1,5 +1,8 @@
 package range_1_20;
 
+/**
+ * 动态规划，字符串
+ */
 public class No5_LongestPalindrome {
 	public static String longestPalindrome(String s) {
         boolean[][] isPalindrome = new boolean[s.length()][s.length()];

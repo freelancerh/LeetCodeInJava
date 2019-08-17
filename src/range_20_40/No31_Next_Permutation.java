@@ -1,5 +1,8 @@
 package range_20_40;
 
+/**
+ * 数组，找规律
+ */
 public class No31_Next_Permutation {
 	public void nextPermutation(int[] nums) {
 		if(nums==null || nums.length < 2)

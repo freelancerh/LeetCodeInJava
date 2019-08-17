@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * 递归
+ */
 public class No78_Subsets {
     public List<List<Integer>> subsets(int[] nums) {
         if (nums == null){

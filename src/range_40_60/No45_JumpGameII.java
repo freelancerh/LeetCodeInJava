@@ -1,5 +1,8 @@
 package range_40_60;
 
+/**
+ * 贪心，数组
+ */
 public class No45_JumpGameII {
 	public int jump(int[] nums) {
 		if(nums==null || nums.length < 2){

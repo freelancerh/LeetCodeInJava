@@ -1,5 +1,8 @@
 package range_40_60;
 
+/**
+ * 递归，找规律，数组
+ */
 public class No55_JumpGame {
     public boolean canJump(int[] nums) {
     	if(nums==null || nums.length<1)

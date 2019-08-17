@@ -1,5 +1,8 @@
 package range_40_60;
 
+/**
+ * 数学，递归
+ */
 public class No50_Pow {
 	public double myPow(double x, int n) {
         if(x == 0)

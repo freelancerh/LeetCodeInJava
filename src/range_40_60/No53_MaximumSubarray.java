@@ -1,5 +1,8 @@
 package range_40_60;
 
+/**
+ * 数组，找规律，动态规划
+ */
 public class No53_MaximumSubarray {
     public int maxSubArray(int[] nums) {
     	if(nums==null || nums.length<1)

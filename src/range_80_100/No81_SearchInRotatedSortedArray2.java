@@ -1,5 +1,8 @@
 package range_80_100;
 
+/**
+ * 查找,数组
+ */
 public class No81_SearchInRotatedSortedArray2 {
     public boolean search(int[] nums, int target) {
         if (nums == null || nums.length == 0){

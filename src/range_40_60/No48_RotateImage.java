@@ -1,5 +1,8 @@
 package range_40_60;
 
+/**
+ * 找规律，矩阵，数学
+ */
 public class No48_RotateImage {
 	public void rotate(int[][] matrix) {
 		if(matrix == null || matrix.length != matrix[0].length){

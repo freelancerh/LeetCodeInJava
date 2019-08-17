@@ -1,6 +1,7 @@
 package range_40_60;
 
-/*
+/**
+ * 数学，排列，数组，找规律
  * 第一种方法，使用nextPermutation方法来求第k个序列，但是所需时间长，会出现Time Limit Exceeded
  * 第二种方法，数学方法，通过k/(n-1)！求得第一位的数字，然后修改原始数组，修改k的值陆续求出后续的数字*/
 public class No60_getPermutation {

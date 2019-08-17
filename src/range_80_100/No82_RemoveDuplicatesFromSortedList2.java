@@ -1,5 +1,8 @@
 package range_80_100;
 
+/**
+ * 链表
+ */
 public class No82_RemoveDuplicatesFromSortedList2 {
 
     public class ListNode {

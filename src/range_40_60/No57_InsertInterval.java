@@ -5,7 +5,8 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-/*
+/**
+ * 数组，找规律
  * 分情况来分析问题
  * 假设新区间的start为nstart,end为nend
  * 区间集合最校的start为ostart，最大的end为oend
@@ -15,8 +16,8 @@ import java.util.List;
  * 4, nstart<=ostart&&nend<oend
  * 5, nstart>ostart&&nend>=oend
  * 6, nstart>ostart&&nend<oend(这里又要分几个情况)
- * 此题分析不难，但是要仔细，调试起来会出现各种问题*/
-
+ * 此题分析不难，但是要仔细，调试起来会出现各种问题
+ * */
 public class No57_InsertInterval {
     public List<Interval> insert(List<Interval> intervals, Interval newInterval) {
     	if(intervals==null || newInterval==null)

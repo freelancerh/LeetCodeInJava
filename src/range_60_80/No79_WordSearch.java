@@ -5,6 +5,9 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.Stack;
 
+/**
+ * 找规律，栈，回溯
+ */
 public class No79_WordSearch {
     static class Point{
         public int x;

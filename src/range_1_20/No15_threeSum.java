@@ -4,7 +4,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class No13_threeSum {
+/**
+ * 递归，指针，数组
+ */
+public class No15_threeSum {
 	public List<List<Integer>> threeSum(int[] nums) {
 		Arrays.sort(nums);
 		List<List<Integer>> list = new ArrayList<List<Integer>>();

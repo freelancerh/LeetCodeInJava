@@ -4,7 +4,9 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 
-
+/**
+ * 链表，优先队列
+ */
 public class No23_MergeKSortedLists {
 	public ListNode mergeKLists1(ListNode[] lists){
 		if(lists==null || lists.length==0){

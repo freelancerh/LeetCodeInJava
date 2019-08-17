@@ -1,6 +1,8 @@
 package range_60_80;
-/*
- * 该题目不难，先找到原始列表分裂的中间位置，然后进行指针的操作，即可得到，需要注意的是这里的k可能大于原始列表长度，需要对它取模*/
+/**
+ * 链表
+ * 该题目不难，先找到原始列表分裂的中间位置，然后进行指针的操作，即可得到，需要注意的是这里的k可能大于原始列表长度，需要对它取模
+ */
 public class No61_RotateList {
 	public ListNode rotateRight(ListNode head, int k) {
 		if(head==null || k<1)

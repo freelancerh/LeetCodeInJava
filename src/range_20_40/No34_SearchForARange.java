@@ -1,5 +1,8 @@
 package range_20_40;
 
+/**
+ * 二分查找，指针，数组
+ */
 public class No34_SearchForARange {
 	public int[] searchRange(int[] nums, int target) {
         int low = 0; 

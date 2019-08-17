@@ -1,5 +1,8 @@
 package range_40_60;
 
+/**
+ * 字符串，找规律，数学
+ */
 public class No43_MultiplyStrings {
 	public static String multiply(String num1, String num2) {
         if(num1==null || num2==null){

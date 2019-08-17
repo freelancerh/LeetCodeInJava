@@ -2,6 +2,9 @@ package range_80_100;
 
 import java.util.Arrays;
 
+/**
+ * 动态规划
+ */
 public class No84_LargestRectangleInHistogram {
     /**
      * heights case when element can move

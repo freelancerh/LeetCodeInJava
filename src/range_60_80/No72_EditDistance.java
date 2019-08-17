@@ -1,5 +1,8 @@
 package range_60_80;
 
+/**
+ * 动态规划
+ */
 public class No72_EditDistance {
     public int minDistance(String word1, String word2) {
     	if(word1.length() < 1)

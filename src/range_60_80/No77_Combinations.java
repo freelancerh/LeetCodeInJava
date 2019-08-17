@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * 递归，动态规划，数学
+ */
 public class No77_Combinations {
     public List<List<Integer>> combine(int n, int k) {
         if (n < k){

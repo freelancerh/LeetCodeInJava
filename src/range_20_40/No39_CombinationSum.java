@@ -4,6 +4,9 @@ import java.util.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+/**
+ * 递归，数组
+ */
 public class No39_CombinationSum {
 	public List<List<Integer>> combinationSum(int[] candidates, int target) {
 		List<List<Integer>> list = new ArrayList<List<Integer>>(); 

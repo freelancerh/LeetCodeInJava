@@ -1,8 +1,10 @@
 package range_60_80;
 
 import java.util.Arrays;
-/*
- * 这道题同样可以采用递归和动态规划的算法来解决，这里用的是递归的方法*/
+/**
+ * 递归，动态规划
+ * 这道题同样可以采用递归和动态规划的算法来解决，这里用的是递归的方法
+ * */
 public class No64_MinimumPathSum {
     public int minPathSum(int[][] grid) {
         if(grid == null)

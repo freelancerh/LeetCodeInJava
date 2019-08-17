@@ -3,6 +3,9 @@ package range_40_60;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 递归，数组
+ */
 public class No46_Permutations {
 	public List<List<Integer>> permute(int[] nums) {
 		List<List<Integer>> list = new ArrayList<List<Integer>>();

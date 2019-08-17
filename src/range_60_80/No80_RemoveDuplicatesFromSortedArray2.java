@@ -1,5 +1,8 @@
-package range_80_100;
+package range_60_80;
 
+/**
+ * 数组，找规律
+ */
 public class No80_RemoveDuplicatesFromSortedArray2 {
     public int removeDuplicates(int[] nums) {
         if (nums == null || nums.length == 0){

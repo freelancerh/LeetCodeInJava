@@ -1,5 +1,8 @@
 package range_60_80;
 
+/**
+ * 二分查找，找规律
+ */
 public class No74_SearchA2DMatrix {
     public boolean searchMatrix(int[][] matrix, int target) {
         if(matrix==null)

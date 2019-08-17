@@ -3,6 +3,9 @@ package range_40_60;
 import java.util.List;
 import java.util.ArrayList;
 
+/**
+ * 数学，递归
+ */
 public class No51_NQueens {
 	 public List<List<String>> solveNQueens(int n) {
 		  if(n<1){

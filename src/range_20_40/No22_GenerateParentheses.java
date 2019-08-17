@@ -3,6 +3,9 @@ package range_20_40;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 递归，栈
+ */
 public class No22_GenerateParentheses {
 	public List<String> generateParenthesis(int n) {
         List<String> list = new ArrayList<String>();

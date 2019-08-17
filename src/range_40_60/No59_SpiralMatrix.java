@@ -1,5 +1,8 @@
 package range_40_60;
-/*设置一个level来标识现在是第几轮循环，以此来构造matrix*/
+/**
+ * 矩阵，找规律
+ * 设置一个level来标识现在是第几轮循环，以此来构造matrix
+ * */
 public class No59_SpiralMatrix {
     public int[][] generateMatrix(int n) {
         if(n<1)

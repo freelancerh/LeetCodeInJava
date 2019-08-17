@@ -1,7 +1,10 @@
 
 package range_1_20;
 
-public class No11_Container_With_Most_Water {
+/**
+ * 找规律，指针
+ */
+public class No11_ContainerWithMostWater {
 	// 每个点都循环一遍，以该点为中心，分成两边，从端点找起，一找到比该点高的点就是该点的最大容积
 	public static int maxArea(int[] height) {
         int[] MAX = new int[height.length];

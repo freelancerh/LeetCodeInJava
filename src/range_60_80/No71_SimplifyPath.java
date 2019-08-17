@@ -5,6 +5,9 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.Stack;
 
+/**
+ * 栈，找规律
+ */
 public class No71_SimplifyPath {
 	
 	public String simplifyPath1(String path){

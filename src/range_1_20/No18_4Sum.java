@@ -5,6 +5,9 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * 指针
+ */
 public class No18_4Sum {
 	public List<List<Integer>> fourSum(int[] nums, int target) {
 		Arrays.sort(nums);

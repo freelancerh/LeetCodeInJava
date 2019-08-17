@@ -1,5 +1,8 @@
 package range_40_60;
 
+/**
+ * 数组，找规律
+ */
 public class No42_TrappingRainWater {
 	public int trap(int[] height) {
 		if(height==null || height.length < 3){

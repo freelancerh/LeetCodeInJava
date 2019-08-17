@@ -6,6 +6,10 @@ class ListNode {
       ListNode(int x) { val = x; }
   }
 
+
+/**
+ * 链表，指针
+ */
 public class No2_AddTwoNumbers {
 	public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 		ListNode p1 = l1;

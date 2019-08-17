@@ -1,5 +1,8 @@
 package range_60_80;
 
+/**
+ * 找规律
+ */
 public class No73_SetMatrixZeroes {
     public void setZeroes(int[][] matrix) {
     	if(matrix == null)

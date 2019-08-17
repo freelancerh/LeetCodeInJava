@@ -1,5 +1,8 @@
 package range_20_40;
 
+/**
+ * 指针，链表
+ */
 public class No25_ReverseKGroup {
 	public ListNode reverseKGroup(ListNode head, int k) {
 		if(head==null || k<2){

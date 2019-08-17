@@ -5,6 +5,9 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * 递归，数组
+ */
 public class No47_PermutationsII {
 	public List<List<Integer>> permuteUnique(int[] nums) {
         Arrays.sort(nums);

@@ -1,5 +1,8 @@
 package range_20_40;
 
+/**
+ * 字符串，动态规划
+ */
 public class No32_LongestValidParentheses {
 	public static int longestValidParentheses(String s) {
 		if(s==null || s.length()<2){

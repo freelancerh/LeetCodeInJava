@@ -1,6 +1,9 @@
 package range_40_60;
 import java.util.*;
 
+/**
+ * 数组，找规律
+ */
 public class No56_MergeIntervals {
     public List<Interval> merge(List<Interval> intervals) {
     	 if(intervals==null || intervals.size()<1)

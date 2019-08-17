@@ -1,5 +1,8 @@
 package range_40_60;
 
+/**
+ * 数组，找规律，指针
+ */
 public class No41_FirstMissingPositive {
 	public int firstMissingPositive(int[] nums) {
         int len = nums.length;

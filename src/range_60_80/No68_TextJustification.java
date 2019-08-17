@@ -3,6 +3,9 @@ package range_60_80;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 找规律
+ */
 public class No68_TextJustification {
     public List<String> fullJustify(String[] words, int maxWidth) {
         if (maxWidth < 1 || words == null || words.length == 0){

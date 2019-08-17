@@ -2,6 +2,9 @@ package range_1_20;
 
 import java.util.Arrays;
 
+/**
+ * 指针，数组
+ */
 public class No16_threeSumClosest {
 	public int threeSumClosest(int[] nums, int target) {
 		Arrays.sort(nums);

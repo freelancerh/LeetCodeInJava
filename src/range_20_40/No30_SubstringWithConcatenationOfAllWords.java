@@ -5,6 +5,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * 字符串，找规律
+ */
 public class No30_SubstringWithConcatenationOfAllWords {
 	public static List<Integer> findSubstring(String s, String[] words) {
 		if(words==null || s==null)

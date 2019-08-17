@@ -3,6 +3,9 @@ package range_60_80;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 找规律，指针
+ */
 public class No76_MinimumWindowSubstring {
     public String minWindow(String s, String t) {
         if (s == null || t == null){

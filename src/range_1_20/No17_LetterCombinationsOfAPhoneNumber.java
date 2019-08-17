@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+/**
+ * 字符串，递归，队列
+ */
 public class No17_LetterCombinationsOfAPhoneNumber {
 	static HashMap<Character, String[]> map = new HashMap<Character, String[]>();
 	List<String> list = new ArrayList<String>();

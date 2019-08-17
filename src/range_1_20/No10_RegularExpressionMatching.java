@@ -1,5 +1,8 @@
 package range_1_20;
 
+/**
+ * 字符串，动态规划
+ */
 public class No10_RegularExpressionMatching {
     public boolean isMatch(String s, String p) {
         if (s == null || p == null){

@@ -1,5 +1,8 @@
 package range_1_20;
 
+/**
+ * 字符串，找规律
+ */
 public class No12_intToRoman {
 	public static String intToRoman(int num) {
         String str = "";

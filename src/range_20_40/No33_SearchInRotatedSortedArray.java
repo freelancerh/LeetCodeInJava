@@ -5,6 +5,9 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStreamReader;
 
+/**
+ * 数组，查找，找规律
+ */
 public class No33_SearchInRotatedSortedArray {
 	public int search(int[] nums, int target) {
         int low = 0;

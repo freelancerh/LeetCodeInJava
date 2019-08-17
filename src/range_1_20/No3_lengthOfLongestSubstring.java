@@ -2,6 +2,9 @@ package range_1_20;
 
 import java.util.HashSet;
 
+/**
+ * 指针，滑动窗口，字符串
+ */
 public class No3_lengthOfLongestSubstring {
 	public static int lengthOfLongestSubstring(String s) {
 		int maxLen = 0;

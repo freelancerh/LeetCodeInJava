@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * 数组，递归
+ */
 public class No40_CombinationSumII {
 	public List<List<Integer>> combinationSum2(int[] candidates, int target) {
 		Arrays.sort(candidates);

@@ -5,6 +5,9 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * 递归，回溯
+ */
 public class No37_SudokuSolver {
     public void solveSudoku(char[][] board) {
         doSolveSudoku(board, 0, 0);

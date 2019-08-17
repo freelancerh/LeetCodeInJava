@@ -1,7 +1,8 @@
 package range_1_20;
 
-/*
- * �ҵķ�����������������λ������ʵ����Ҫ�������������ֱ�ָ��A��B����ͷ��ָ��ȥ�������飬Ȼ��ͳ��Ԫ�ظ������ɡ�*/
+/**
+ * 指针，数组
+ * */
 public class No4_MedianOfTwoSortedArrays {
 	public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
 		int[] nums = new int[nums1.length + nums2.length];

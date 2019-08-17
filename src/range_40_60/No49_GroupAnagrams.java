@@ -6,6 +6,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * 字符串，数组，找规律，数学
+ */
 public class No49_GroupAnagrams {
 	public List<List<String>> groupAnagrams(String[] strs) {
 		if(strs==null || strs.length < 1){
